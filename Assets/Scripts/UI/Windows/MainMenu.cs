@@ -4,7 +4,8 @@ using Utils;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject _mainMenu;
+    [SerializeField] private GameObject _settingsMenu;
+    
     public void OnStartGame()
     {
         StartCoroutine(SceneLoader.LoadSceneAsync(Scene.Level_00));
@@ -12,8 +13,8 @@ public class MainMenu : MonoBehaviour
 
     public void OnShowSettings()
     {
-        WindowUtils.CreateWindow("UI/Windows/Settings/SettingsWindow");
-        _mainMenu.SetActive(false);
+        _settingsMenu.SetActive(true);
+        gameObject.SetActive(false);
     }
 
     public void OnShowCredits()

@@ -1,0 +1,1508 @@
+fileFormatVersion: 2
+guid: a34c8c7fbe904d044ac381d56afba847
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3341938774420145309
+    second: scifi_platformTiles_32x32_0
+  - first:
+      213: -8655916938577141209
+    second: scifi_platformTiles_32x32_1
+  - first:
+      213: -8331278623627375735
+    second: scifi_platformTiles_32x32_2
+  - first:
+      213: -2465811883347444907
+    second: scifi_platformTiles_32x32_3
+  - first:
+      213: -2871166451635963116
+    second: scifi_platformTiles_32x32_4
+  - first:
+      213: 2537259744619992771
+    second: scifi_platformTiles_32x32_5
+  - first:
+      213: 6471826409641283474
+    second: scifi_platformTiles_32x32_6
+  - first:
+      213: -8063234487400188511
+    second: scifi_platformTiles_32x32_7
+  - first:
+      213: -8130418369433251381
+    second: scifi_platformTiles_32x32_8
+  - first:
+      213: 4938689849747277715
+    second: scifi_platformTiles_32x32_9
+  - first:
+      213: 4226809997585237485
+    second: scifi_platformTiles_32x32_10
+  - first:
+      213: -5941613110382965390
+    second: scifi_platformTiles_32x32_11
+  - first:
+      213: -4362626425099866336
+    second: scifi_platformTiles_32x32_12
+  - first:
+      213: 4861409265062014292
+    second: scifi_platformTiles_32x32_13
+  - first:
+      213: 6544630107194077499
+    second: scifi_platformTiles_32x32_14
+  - first:
+      213: 5977857560978620764
+    second: scifi_platformTiles_32x32_15
+  - first:
+      213: -88181218544662097
+    second: scifi_platformTiles_32x32_16
+  - first:
+      213: -4945210136220505490
+    second: scifi_platformTiles_32x32_17
+  - first:
+      213: 3352714219127878233
+    second: scifi_platformTiles_32x32_18
+  - first:
+      213: -5394713844489740178
+    second: scifi_platformTiles_32x32_19
+  - first:
+      213: -7831503411349374427
+    second: scifi_platformTiles_32x32_20
+  - first:
+      213: 8735037458689109024
+    second: scifi_platformTiles_32x32_21
+  - first:
+      213: 2465207842218982190
+    second: scifi_platformTiles_32x32_22
+  - first:
+      213: -4207066895737084137
+    second: scifi_platformTiles_32x32_23
+  - first:
+      213: -7214692873622737675
+    second: scifi_platformTiles_32x32_24
+  - first:
+      213: 4951213328957219616
+    second: scifi_platformTiles_32x32_25
+  - first:
+      213: 1598529786736577506
+    second: scifi_platformTiles_32x32_26
+  - first:
+      213: -1359903426974381326
+    second: scifi_platformTiles_32x32_27
+  - first:
+      213: 7377944762766369423
+    second: scifi_platformTiles_32x32_28
+  - first:
+      213: -3159756065765239376
+    second: scifi_platformTiles_32x32_29
+  - first:
+      213: -714586528350431569
+    second: scifi_platformTiles_32x32_30
+  - first:
+      213: -2821146641772396107
+    second: scifi_platformTiles_32x32_31
+  - first:
+      213: -1345789698437012742
+    second: scifi_platformTiles_32x32_32
+  - first:
+      213: -3558485908309153178
+    second: scifi_platformTiles_32x32_33
+  - first:
+      213: -4941958441446333412
+    second: scifi_platformTiles_32x32_34
+  - first:
+      213: 7870878907831553847
+    second: scifi_platformTiles_32x32_35
+  - first:
+      213: 5228912147601021984
+    second: scifi_platformTiles_32x32_36
+  - first:
+      213: -4051867389175682100
+    second: scifi_platformTiles_32x32_37
+  - first:
+      213: 4597025317642977814
+    second: scifi_platformTiles_32x32_38
+  - first:
+      213: -1205222360842620498
+    second: scifi_platformTiles_32x32_39
+  - first:
+      213: -6464473990140048107
+    second: scifi_platformTiles_32x32_40
+  - first:
+      213: 1835717109250383072
+    second: scifi_platformTiles_32x32_41
+  - first:
+      213: -986675433263852082
+    second: scifi_platformTiles_32x32_42
+  - first:
+      213: 3484298155582191508
+    second: scifi_platformTiles_32x32_43
+  - first:
+      213: -5444868692401724536
+    second: scifi_platformTiles_32x32_44
+  - first:
+      213: -7954211874141122214
+    second: scifi_platformTiles_32x32_45
+  - first:
+      213: -530062738613149670
+    second: scifi_platformTiles_32x32_46
+  - first:
+      213: 8105271291837128599
+    second: scifi_platformTiles_32x32_47
+  - first:
+      213: 8335700641775268850
+    second: scifi_platformTiles_32x32_48
+  - first:
+      213: 4235611096901412885
+    second: scifi_platformTiles_32x32_49
+  - first:
+      213: -4123219617967080332
+    second: scifi_platformTiles_32x32_50
+  - first:
+      213: 4468601916033958822
+    second: scifi_platformTiles_32x32_51
+  - first:
+      213: 1357356977378076846
+    second: scifi_platformTiles_32x32_52
+  - first:
+      213: 2650967955352435934
+    second: scifi_platformTiles_32x32_53
+  - first:
+      213: -5673307523256892675
+    second: scifi_platformTiles_32x32_55
+  - first:
+      213: -5821783247395116314
+    second: scifi_platformTiles_32x32_54
+  - first:
+      213: 6612142968318706417
+    second: scifi_platformTiles_32x32_56
+  - first:
+      213: 3278763243430100608
+    second: scifi_platformTiles_32x32_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94ca66eb93f06e20800000000000000
+      internalID: 3341938774420145309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722a2d6c76100e780800000000000000
+      internalID: -8655916938577141209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b82e99b3a516c80800000000000000
+      internalID: -8331278623627375735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b7322182da7cdd0800000000000000
+      internalID: -2465811883347444907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b383703519728d0800000000000000
+      internalID: -2871166451635963116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 544
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c619f47b48263320800000000000000
+      internalID: 2537259744619992771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f09a294db80d950800000000000000
+      internalID: 6471826409641283474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a535dd54f2a91090800000000000000
+      internalID: -8063234487400188511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1de9ed193fa2f80800000000000000
+      internalID: -8130418369433251381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39783068040c98440800000000000000
+      internalID: 4938689849747277715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 704
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de543275c45a8aa30800000000000000
+      internalID: 4226809997585237485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dc1da2b562b8da0800000000000000
+      internalID: -5941613110382965390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa03c6166d473c0800000000000000
+      internalID: -4362626425099866336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 704
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d60df38f1377340800000000000000
+      internalID: 4861409265062014292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3131a5586233da50800000000000000
+      internalID: 6544630107194077499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51830897cd95f250800000000000000
+      internalID: 5977857560978620764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 704
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c8c026a7b6cef0800000000000000
+      internalID: -88181218544662097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 704
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6aeaf4951f5bb0800000000000000
+      internalID: -4945210136220505490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 608
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952b480a1db378e20800000000000000
+      internalID: 3352714219127878233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 608
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60ae4247502225b0800000000000000
+      internalID: -5394713844489740178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 608
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ab245f329e05390800000000000000
+      internalID: -7831503411349374427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 608
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c25e8d946193970800000000000000
+      internalID: 8735037458689109024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 640
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b38f4a87d263220800000000000000
+      internalID: 2465207842218982190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7172945c2fe7d95c0800000000000000
+      internalID: -4207066895737084137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 640
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcac287e0340eb90800000000000000
+      internalID: -7214692873622737675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023acaf3a4e36b440800000000000000
+      internalID: 4951213328957219616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 608
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb80552f5e1f2610800000000000000
+      internalID: 1598529786736577506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 608
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa0b5ac907a02de0800000000000000
+      internalID: -1359903426974381326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 608
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82a425fba9b36660800000000000000
+      internalID: 7377944762766369423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 608
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b55d2b699a4624d0800000000000000
+      internalID: -3159756065765239376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 576
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa69468a6574516f0800000000000000
+      internalID: -714586528350431569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1cedd831649d8d0800000000000000
+      internalID: -2821146641772396107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 576
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2284a466bc25de0800000000000000
+      internalID: -1345789698437012742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aeff88be7bd9ec0800000000000000
+      internalID: -3558485908309153178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1429da2bf2aa6bb0800000000000000
+      internalID: -4941958441446333412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f0a6b3aaafa3d60800000000000000
+      internalID: 7870878907831553847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cdb7fe4e3d09840800000000000000
+      internalID: 5228912147601021984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccba137c310e4c7c0800000000000000
+      internalID: -4051867389175682100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61246999b2aebcf30800000000000000
+      internalID: 4597025317642977814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea13e9af5a0364fe0800000000000000
+      internalID: -1205222360842620498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d43fdf7239946a0800000000000000
+      internalID: -6464473990140048107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecd9fc1cf6c97910800000000000000
+      internalID: 1835717109250383072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec514bbcbef9e42f0800000000000000
+      internalID: -986675433263852082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497760f36b6ba5030800000000000000
+      internalID: 3484298155582191508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883efbcb5c0ff64b0800000000000000
+      internalID: -5444868692401724536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51df959176fc9190800000000000000
+      internalID: -7954211874141122214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10ea446fb6d4a8f0800000000000000
+      internalID: -530062738613149670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 288
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f9f1edb45bb7070800000000000000
+      internalID: 8105271291837128599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3b20bb19b5ea370800000000000000
+      internalID: 8335700641775268850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518e285f9d9e7ca30800000000000000
+      internalID: 4235611096901412885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c762c6a9167c6c0800000000000000
+      internalID: -4123219617967080332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a385d754c9a30e30800000000000000
+      internalID: 4468601916033958822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a406bafc46d210800000000000000
+      internalID: 1357356977378076846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb9b95f412ac420800000000000000
+      internalID: 2650967955352435934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2c8b6bddc5441b0800000000000000
+      internalID: -5673307523256892675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaa1bb4bfed43fa0800000000000000
+      internalID: -5821783247395116314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2cbbe3ffc03cb50800000000000000
+      internalID: 6612142968318706417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi_platformTiles_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 319
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e324b5cc1808d20800000000000000
+      internalID: 3278763243430100608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

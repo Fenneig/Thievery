@@ -12,6 +12,6 @@ public class SettingsMenu : MonoBehaviour
     public void OnReturn()
     {
         if (_mainMenu != null) _mainMenu.SetActive(true);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

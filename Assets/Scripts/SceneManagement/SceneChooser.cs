@@ -8,6 +8,11 @@ namespace SceneManagement
 
         public void LoadScene()
         {
+            SceneLoader.LoadScene(_scene);
+        }
+        
+        public void LoadSceneAsync()
+        {
             StartCoroutine(SceneLoader.LoadSceneAsync(_scene));
         }
     }
