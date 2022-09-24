@@ -34,26 +34,48 @@
             "id": "f6249749-f35d-4fb1-ad9b-d1a4e1fdc41f",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "Button",
+                    "name": "Movement",
+                    "type": "Value",
                     "id": "af219193-bf5b-49cf-8514-a0703d0399b6",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "28531347-79f8-4cdb-940e-f71908f9e70e",
-                    "path": "",
+                    "name": "1D Axis",
+                    "id": "b55334e0-981c-4213-84b9-e55996567f84",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
+                    "action": "Movement",
+                    "isComposite": true,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "49e6f332-340e-4c8d-a77c-aac1cf10d8c9",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2b2354ca-14d5-4849-b32a-e1a6bb5174f4",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
