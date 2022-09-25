@@ -263,7 +263,7 @@ Animator:
   m_GameObject: {fileID: 1058238889}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d20df0a842e41224c9f1e5482630551c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -387,13 +387,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8184f8c34f774542889b926334c31bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxSpeed: 8
-  _maxAcceleration: 4
-  _maxDeceleration: 10
-  _maxAirAcceleration: 1
-  _maxAirDeceleration: 1
-  _maxTurnSpeed: 20
-  _maxAirTurnSpeed: 1
+  _maxSpeed: 5
+  _maxAcceleration: 26
+  _maxDeceleration: 26
+  _maxAirAcceleration: 13
+  _maxAirDeceleration: 13
+  _maxTurnSpeed: 40
+  _maxAirTurnSpeed: 20
+  _jumpHeight: 3
+  _timeToJumpApex: 1
+  _upwardMovementMultiplier: 1
+  _downwardMovementMultiplier: 2
+  _jumpCutOff: 1
+  _coyoteTime: 0.15
   _groundCheck: {fileID: 1122728017}
 --- !u!114 &1058238896
 MonoBehaviour:
@@ -453,6 +459,36 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: af219193-bf5b-49cf-8514-a0703d0399b6
     m_ActionName: Hero/Movement[/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1058238896}
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: da026d19-cc6f-409c-b196-8c45878c2dfe
+    m_ActionName: Hero/Jump[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1058238896}
+        m_MethodName: OnCrouch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3519507b-7743-471d-8656-cfed1710fd6f
+    m_ActionName: Hero/Crouch[/Keyboard/s]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Hero
@@ -484,7 +520,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122728014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.957, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1058238892}
@@ -505,7 +541,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.1
 --- !u!114 &1122728017
 MonoBehaviour:
   m_ObjectHideFlags: 0
