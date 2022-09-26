@@ -30,5 +30,20 @@ namespace Creatures.Hero
             if (context.started) _hero.IsCrouch = true;
             if (context.canceled) _hero.IsCrouch = false;
         }
+
+        public void OnAttack(InputAction.CallbackContext context)
+        {
+            if (context.started) _hero.Attack();
+        }
+
+        public void OnInteract(InputAction.CallbackContext context)
+        {
+            if (context.started) _hero.Interact();
+        }
+
+        public void OnMenu(InputAction.CallbackContext context)
+        {
+            
+        }
     }
 }

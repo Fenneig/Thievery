@@ -90,7 +90,7 @@ namespace Creatures.Hero
 
         private void Update()
         {
-            var maxSpeed = _isCrouch ? 0 : _maxSpeed;
+            var maxSpeed = _isCrouch && !_currentlyJumping ? 0 : _maxSpeed;
             _horizontalVelocity = new Vector2(_directionX, 0) * maxSpeed;
 
             Vector2 newGravity = new Vector2(0, -2 * _jumpHeight / (_timeToJumpApex * _timeToJumpApex));
@@ -234,6 +234,16 @@ namespace Creatures.Hero
             _animator.SetBool(WalkingKey, _rigidbody.velocity.x != 0);
             _animator.SetBool(CrouchKey, _isCrouch);
             _animator.SetFloat(VerticalVelocityKey, _rigidbody.velocity.y);
+        }
+
+        public void Attack()
+        {
+            _animator.SetTrigger(AttackKey);
+        }
+
+        public void Interact()
+        {
+            
         }
     }
 }

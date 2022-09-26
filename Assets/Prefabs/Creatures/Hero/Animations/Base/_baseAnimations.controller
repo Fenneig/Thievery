@@ -862,6 +862,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: is-walking
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: is-crouch
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7276425230728345502}
   m_Solo: 0
