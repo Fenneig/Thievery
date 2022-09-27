@@ -162,14 +162,8 @@ namespace Creatures.Hero
                 }
                 else
                 {
-                    if (_pressingJump && _currentlyJumping)
-                    {
-                        _gravityMultiplier = _upwardMovementMultiplier;
-                    }
-                    else
-                    {
-                        _gravityMultiplier = _jumpCutOff;
-                    }
+                    if (_pressingJump && _currentlyJumping) _gravityMultiplier = _upwardMovementMultiplier;
+                    else _gravityMultiplier = _jumpCutOff;
                 }
             }
             else if (_rigidbody.velocity.y < -0.01f)
@@ -181,6 +175,7 @@ namespace Creatures.Hero
                     }
                     else
                     {
+                        _currentlyJumping = true;
                         _gravityMultiplier = _downwardMovementMultiplier;
                     }
 
@@ -200,7 +195,7 @@ namespace Creatures.Hero
         private float CalculateJumpVelocity()
         {
             var velocityY = _velocity.y;
-            if (_onGround || (_coyoteTimeCounter > 0.03f && _coyoteTimeCounter < _coyoteTime))
+            if (_onGround || _coyoteTimeCounter > 0.03f && _coyoteTimeCounter < _coyoteTime)
             {
                 _animator.SetTrigger(JumpKey);
 

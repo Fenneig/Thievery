@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 4479829387169192936}
   - component: {fileID: 4479829387169192951}
   - component: {fileID: 4479829387169192950}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0e5caae6e6fbcca408bbecc41348f410, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1

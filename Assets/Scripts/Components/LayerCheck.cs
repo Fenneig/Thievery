@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEditor;
+using UnityEngine;
 
 namespace Components
 {
@@ -22,6 +24,12 @@ namespace Components
         private void OnTriggerExit2D(Collider2D collision)
         {
             if (_collider != null) _isTouchingLayer = _collider.IsTouchingLayers(_layer);
+        }
+
+        private void OnDrawGizmos()
+        {
+            Handles.color = _isTouchingLayer ? Color.green : Color.red;
+            Handles.DrawSolidDisc(transform.position, Vector3.forward, 0.2f);
         }
     }
 }
