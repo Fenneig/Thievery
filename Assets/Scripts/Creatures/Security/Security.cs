@@ -60,6 +60,7 @@ namespace Creatures.Security
         public void Attack()
         {
             _animator.SetTrigger(AttackKey);
+            
         }
 
         public void OnDoAttack()

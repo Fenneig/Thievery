@@ -14,13 +14,12 @@ namespace Creatures.Security
         {
             if (IsDead) return;
             Target = go;
-            
-            StartState(AgroToHero());
+            if (_patrolZone.CurrentSuspiciousLevel != ZoneSuspiciousLevel.SuspiciousLevel.NoThreat) StartState(AgroToHero());
         }
 
         protected override IEnumerator AgroToHero()
         {
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(_patrolZone.CurrentSuspiciousLevel == ZoneSuspiciousLevel.SuspiciousLevel.Threat ? _alarmDelayWhileThreat : _alarmDelay);
             StartState(GoToHero());
         }
 
@@ -43,7 +42,7 @@ namespace Creatures.Security
             }
             if (IsDead) yield break;
 
-            yield return new WaitForSeconds(_missHeroCooldown);
+            yield return new WaitForSeconds(_patrolZone.CurrentSuspiciousLevel == ZoneSuspiciousLevel.SuspiciousLevel.Threat ? _missHeroCooldownWhileThreat : _missHeroCooldown);
             StartState(_patrol.DoPatrol());
         }
 
@@ -53,7 +52,9 @@ namespace Creatures.Security
             {
                 StopMoving();
                 _security.Attack();
-                yield return new WaitForSeconds(_attackCooldown);
+                _patrolZone.ChangeSuspiciousLevelToThreat();
+                
+                yield return new WaitForSeconds(_patrolZone.CurrentSuspiciousLevel == ZoneSuspiciousLevel.SuspiciousLevel.Threat ? _attackCooldownWhileThreat : _attackCooldown);
             }
 
             StartState(GoToHero());

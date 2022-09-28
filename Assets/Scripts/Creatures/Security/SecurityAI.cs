@@ -10,6 +10,9 @@ namespace Creatures.Security
         [SerializeField] protected float _alarmDelay = 1;
         [SerializeField] protected float _attackCooldown = 1;
         [SerializeField] protected float _missHeroCooldown = 1;
+        [SerializeField] protected float _alarmDelayWhileThreat = 0.1f;
+        [SerializeField] protected float _attackCooldownWhileThreat = 0.5f;
+        [SerializeField] protected float _missHeroCooldownWhileThreat = 0.1f;
 
         [Space] [Header("Layer Checks")] [SerializeField]
         protected LayerCheck _vision;
@@ -18,6 +21,7 @@ namespace Creatures.Security
         [SerializeField] protected Animator _animator;
         [SerializeField] protected Security _security;
         [SerializeField] protected Patrol.Patrol _patrol;
+        [SerializeField] protected ZoneSuspiciousLevel _patrolZone;
         
         protected GameObject Target;
         protected bool IsDead;

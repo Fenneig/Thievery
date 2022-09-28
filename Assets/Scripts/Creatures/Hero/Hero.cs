@@ -73,6 +73,19 @@ namespace Creatures.Hero
         private Vector2 _horizontalVelocity;
         private bool _onGround;
         private bool _isCrouch;
+        private ZoneSuspiciousLevel _currentZone;
+        private bool _canBeHidden = true;
+
+        public bool CanBeHidden
+        {
+            set => _canBeHidden = value;
+        }
+
+        public ZoneSuspiciousLevel CurrentZone
+        {
+            get => _currentZone;
+            set => _currentZone = value;
+        }
 
         private static readonly int JumpKey = Animator.StringToHash("jump");
         private static readonly int WalkingKey = Animator.StringToHash("is-walking");
@@ -82,7 +95,6 @@ namespace Creatures.Hero
         private static readonly int GroundKey = Animator.StringToHash("is-ground");
         private static readonly int AttackKey = Animator.StringToHash("attack");
         private static readonly int InteractKey = Animator.StringToHash("interact");
-
 
         private int _hiddenLayer;
         private int _notHiddenLayer;
@@ -104,6 +116,17 @@ namespace Creatures.Hero
             _hiddenLayer = LayerMask.NameToLayer("HiddenPlayer");
             _notHiddenLayer = LayerMask.NameToLayer("Player");
             _corpseLayer = LayerMask.NameToLayer("Corpse");
+            gameObject.layer = _hiddenLayer;
+        }
+
+        public void ChangeToHiddenState()
+        {
+            if (_canBeHidden) gameObject.layer = _hiddenLayer;
+        }
+
+        public void ChangeToNotHiddenState()
+        {
+            gameObject.layer = _notHiddenLayer;
         }
 
         private void Update()
@@ -254,7 +277,7 @@ namespace Creatures.Hero
             _isCrouch = true;
             if (_shadowCheck.IsTouchingLayer)
             {
-                gameObject.layer = _hiddenLayer;
+                ChangeToHiddenState();    
                 _body.sortingLayerName = "Background";
                 _outfit.sortingLayerName = "Background";
             }
@@ -263,7 +286,8 @@ namespace Creatures.Hero
         public void StopCrouch()
         {
             _isCrouch = false;
-            gameObject.layer = _notHiddenLayer;
+            if (_currentZone != null && _currentZone.CurrentSuspiciousLevel == ZoneSuspiciousLevel.SuspiciousLevel.Suspicious)
+                ChangeToNotHiddenState();
             _body.sortingLayerName = "Creatures";
             _outfit.sortingLayerName = "Creatures";
         }
@@ -276,6 +300,7 @@ namespace Creatures.Hero
         public void OnDoAttack()
         {
             _attackCheck.Check();
+            if (_currentZone != null) _currentZone.ChangeSuspiciousLevelToSuspicious();
         }
 
         public void Interact()
@@ -286,6 +311,7 @@ namespace Creatures.Hero
         public void OnDoInteract()
         {
             _interactCheck.Check();
+            if (_currentZone != null) _currentZone.ChangeOutfitInZone();
         }
 
         public void OnDie()

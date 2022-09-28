@@ -39,7 +39,6 @@ namespace SceneManagement
 
         public static float GetLoadingProgress()
         {
-            Debug.Log(_asyncOperation?.progress);
             return _asyncOperation?.progress ?? 0f;
         }
 
