@@ -9,6 +9,7 @@ namespace SceneManagement
     public enum Scene
     {
         Level_00,
+        Level_01,
         MainMenu,
         LoadingScene,
         Credits

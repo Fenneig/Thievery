@@ -76,6 +76,14 @@ namespace Creatures.Hero
         private ZoneSuspiciousLevel _currentZone;
         private bool _canBeHidden = true;
 
+        private int _score;
+        
+        public int Score
+        {
+            get => _score;
+            set => _score = value;
+        }
+
         public bool CanBeHidden
         {
             set => _canBeHidden = value;
@@ -300,7 +308,12 @@ namespace Creatures.Hero
         public void OnDoAttack()
         {
             _attackCheck.Check();
-            if (_currentZone != null) _currentZone.ChangeSuspiciousLevelToSuspicious();
+            if (_currentZone != null &&
+                _currentZone.CurrentSuspiciousLevel != ZoneSuspiciousLevel.SuspiciousLevel.Threat)
+            {
+
+                _currentZone.ChangeSuspiciousLevelToSuspicious();
+            }
         }
 
         public void Interact()

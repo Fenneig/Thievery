@@ -29,7 +29,6 @@ public class AudioSettingsComponent : MonoBehaviour
     {
         switch (_mode)
         {
-            case GameSettings.SoundSettings.Global: return GameSettings.I.Global;
             case GameSettings.SoundSettings.Music: return GameSettings.I.Music;
             case GameSettings.SoundSettings.Sfx: return GameSettings.I.Sfx;
         }

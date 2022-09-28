@@ -27,7 +27,12 @@ namespace Components
         {
             if (other.CompareTag(_tag))
             {
-                _hero.CurrentZone = this;
+                if (_hero.CurrentZone == null || _hero.CurrentZone != this)
+                {
+                    _hero.CurrentZone = this;
+                    ChangeSuspiciousLevelToNoThreat();
+                }
+
                 _suspiciousLevelText.enabled = true;
             }
         }

@@ -29,6 +29,7 @@ namespace Creatures.Security
             {
                 if (_canAttack.IsTouchingLayer)
                 {
+                    if (IsDead) yield break;
                     StartState(Attack());
                 }
                 else

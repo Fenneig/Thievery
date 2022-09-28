@@ -134,7 +134,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 192319411
-  m_SortingLayer: 2
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 9116646001532564206, guid: b62b85e3611182e4f81ee73cca957bcd,
     type: 3}
@@ -402,10 +402,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -1, y: 1}
-      - {x: -1, y: -1.5}
-      - {x: 7, y: -2}
-      - {x: 7, y: 2}
+    - - {x: -0.5, y: 1}
+      - {x: -0.5, y: -1}
+      - {x: 4, y: -1}
+      - {x: 4, y: 1}
 --- !u!114 &599896243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,7 +599,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 192319411
-  m_SortingLayer: 2
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7704986121844258775, guid: 2a62d40a0f1c7154ab5da636142454ce,
     type: 3}
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94ea611d2ad4f8fb2ce265284fa35c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 4
+  _speed: 3
   _groundLayerCheck: {fileID: 5558916215078137627}
   _rigidbody: {fileID: 4190149011692560846}
   _animator: {fileID: 5558916215033193719}
@@ -839,6 +839,9 @@ MonoBehaviour:
   _alarmDelay: 1
   _attackCooldown: 1
   _missHeroCooldown: 1
+  _alarmDelayWhileThreat: 0.1
+  _attackCooldownWhileThreat: 0.5
+  _missHeroCooldownWhileThreat: 0.1
   _vision: {fileID: 599896243}
   _animator: {fileID: 5558916215033193719}
   _security: {fileID: 4245108574479401910}

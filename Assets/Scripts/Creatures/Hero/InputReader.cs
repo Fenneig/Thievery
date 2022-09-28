@@ -6,6 +6,8 @@ namespace Creatures.Hero
     public class InputReader : MonoBehaviour
     {
         [SerializeField] private Hero _hero;
+        [SerializeField] private PauseMenuWindow _menuWindow;
+        [SerializeField] private SettingsMenu _settingsMenu;
 
         public void OnMovement(InputAction.CallbackContext context)
         {
@@ -41,7 +43,21 @@ namespace Creatures.Hero
 
         public void OnMenu(InputAction.CallbackContext context)
         {
-            
+            if (context.started)
+            {
+                if (_settingsMenu.gameObject.activeSelf)
+                {
+                    _settingsMenu.OnReturn();
+                }
+                else if (_menuWindow.gameObject.activeSelf)
+                {
+                    _menuWindow.ResumeGame();
+                }
+                else
+                {
+                    _menuWindow.gameObject.SetActive(true);
+                }
+            }
         }
     }
 }

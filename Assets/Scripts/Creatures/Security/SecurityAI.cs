@@ -58,6 +58,7 @@ namespace Creatures.Security
 
         protected void SetDirectionToTarget()
         {
+            if (IsDead) return;
             var direction = Target.transform.position - transform.position;
             _security.DirectionX = direction.x;
         }
