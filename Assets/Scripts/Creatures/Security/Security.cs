@@ -9,6 +9,7 @@ namespace Creatures.Security
         [SerializeField] private LayerCheck _groundLayerCheck;
         [SerializeField] private Rigidbody2D _rigidbody;
         [SerializeField] private Animator _animator;
+        [SerializeField] private CheckCircleOverlap _attackChecker;
 
         private float _directionX;
         public float DirectionX
@@ -19,7 +20,6 @@ namespace Creatures.Security
         private bool _isGrounded;
 
         private static readonly int WalkingKey = Animator.StringToHash("is-walking");
-        private static readonly int HitKey = Animator.StringToHash("hit");
         private static readonly int GroundKey = Animator.StringToHash("is-ground");
         private static readonly int AttackKey = Animator.StringToHash("attack");
 
@@ -42,7 +42,6 @@ namespace Creatures.Security
             if (_directionX < 0) _directionX = -1;
             else if (_directionX > 0) _directionX = 1;
             else _directionX = 0;
-            Debug.Log($"direction = {_directionX}, speed = {_speed}");
             return new Vector2(_directionX * _speed, 0);
         }
         
@@ -61,6 +60,11 @@ namespace Creatures.Security
         public void Attack()
         {
             _animator.SetTrigger(AttackKey);
+        }
+
+        public void OnDoAttack()
+        {
+            _attackChecker.Check();
         }
 
         private void SetAnimatorSettings()

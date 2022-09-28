@@ -25,8 +25,8 @@ namespace Creatures.Hero
 
         public void OnCrouch(InputAction.CallbackContext context)
         {
-            if (context.started) _hero.IsCrouch = true;
-            if (context.canceled) _hero.IsCrouch = false;
+            if (context.started) _hero.StartCrouch();
+            if (context.canceled) _hero.StopCrouch();
         }
 
         public void OnAttack(InputAction.CallbackContext context)

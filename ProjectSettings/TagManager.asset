@@ -17,12 +17,12 @@ TagManager:
   - 
   - Ground
   - Player
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Shadow
+  - Enemy
+  - HiddenPlayer
+  - Components
+  - Corpse
   - 
   - 
   - 
@@ -42,4 +42,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 616395259
+    locked: 0
+  - name: Creatures
+    uniqueID: 192319411
     locked: 0

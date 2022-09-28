@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Creatures
+namespace Components.Outfit
 {
     [Serializable]
     public struct OutfitSprites
@@ -9,18 +9,17 @@ namespace Creatures
         public Sprite[] Sprites;
     }
 
-    public enum OutfitType
-    {
-        Blue,
-        Gray,
-        Red
-    }
-
-    public class ChangeOutfit : MonoBehaviour
+    public class Outfit : MonoBehaviour
     {
         [SerializeField] private OutfitSprites[] _sprites;
         [SerializeField] private SpriteRenderer _outfit;
         [SerializeField] private int _outfitType;
+
+        public OutfitType OutfitType
+        {
+            get => (OutfitType) _outfitType;
+            set => _outfitType = (int) value;
+        }
 
         private void LateUpdate()
         {
@@ -36,7 +35,6 @@ namespace Creatures
         {
             var spriteName = _outfit.sprite.name.Split('_');
             var spriteNum = int.Parse(spriteName[spriteName.Length-1]);
-
             _outfit.sprite = _sprites[_outfitType].Sprites[spriteNum];
         }
     }

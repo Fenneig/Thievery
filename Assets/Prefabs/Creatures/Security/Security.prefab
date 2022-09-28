@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1117913315}
   - component: {fileID: 1117913317}
   - component: {fileID: 1117913316}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 5558916214448363792}
   - component: {fileID: 5558916214448363795}
   - component: {fileID: 5558916214448363794}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Outfit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,15 +133,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 192319411
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 5558916214510981830}
   - component: {fileID: 599896243}
   - component: {fileID: 599896246}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Vision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,10 +401,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.5}
-      - {x: 0, y: -1}
-      - {x: 5, y: -2}
-      - {x: 5, y: 2}
+    - - {x: -1, y: 1}
+      - {x: -1, y: -1.5}
+      - {x: 7, y: -2}
+      - {x: 7, y: 2}
 --- !u!114 &599896243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
   _action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1088538244}
         m_MethodName: OnHeroInVision
         m_Mode: 0
         m_Arguments:
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 5558916214617976267}
   - component: {fileID: 5558916214617976264}
   - component: {fileID: 5558916214617976265}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: EndOfPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,8 @@ GameObject:
   - component: {fileID: 4245108574479401910}
   - component: {fileID: 7446851573412652720}
   - component: {fileID: 1088538244}
-  m_Layer: 0
+  - component: {fileID: 1872945079}
+  m_Layer: 12
   m_Name: Security
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,8 +595,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 192319411
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7704986121844258775, guid: 2a62d40a0f1c7154ab5da636142454ce,
     type: 3}
@@ -782,7 +783,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 22.31
   m_Material: {fileID: 6200000, guid: 0e5caae6e6fbcca408bbecc41348f410, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -804,6 +805,7 @@ MonoBehaviour:
   _groundLayerCheck: {fileID: 5558916215078137627}
   _rigidbody: {fileID: 4190149011692560846}
   _animator: {fileID: 5558916215033193719}
+  _attackChecker: {fileID: 1174429214}
 --- !u!114 &7446851573412652720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,6 +842,32 @@ MonoBehaviour:
   _patrol: {fileID: 7446851573412652720}
   _canAttack: {fileID: 1366577836}
   _targetReachThreshold: 0.5
+--- !u!114 &1872945079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5558916215033193712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa1571eca244f4a9ff35b4d30bde448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onDie:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1088538244}
+        m_MethodName: OnDie
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5558916215078137620
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +879,7 @@ GameObject:
   - component: {fileID: 5558916215078137621}
   - component: {fileID: 5558916215078137626}
   - component: {fileID: 5558916215078137627}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -915,7 +943,9 @@ GameObject:
   - component: {fileID: 716896238797241866}
   - component: {fileID: 9073537401816755356}
   - component: {fileID: 1366577836}
-  m_Layer: 0
+  - component: {fileID: 1174429214}
+  - component: {fileID: 1174429215}
+  m_Layer: 14
   m_Name: AttackRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,3 +998,45 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   _isTouchingLayer: 0
+--- !u!114 &1174429214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761291854717678322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cecb9d9543b402d81f5b10c17069207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _range: 0.3
+  _mask:
+    serializedVersion: 2
+    m_Bits: 512
+  _event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1174429215}
+        m_MethodName: DealDamage
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1174429215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761291854717678322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c2cca0a89d4e9aaaf43e8263e75b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

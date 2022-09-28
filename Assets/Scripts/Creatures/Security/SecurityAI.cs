@@ -23,11 +23,13 @@ namespace Creatures.Security
         protected bool IsDead;
 
         private Coroutine _current;
+        private int _corpseLayer;
 
-        private static readonly int IsDeadKey = Animator.StringToHash("is-dead");
+        private static readonly int HitKey = Animator.StringToHash("hit");
 
         private void Start()
         {
+            _corpseLayer = LayerMask.NameToLayer("Corpse");
             StartState(_patrol.DoPatrol());
         }
 
@@ -42,12 +44,12 @@ namespace Creatures.Security
 
         public void OnDie()
         {
-            Debug.Log("died");
             IsDead = true;
-            _animator.SetBool(IsDeadKey, true);
+            _animator.SetTrigger(HitKey);
             
-            StopAllCoroutines();
             StopMoving();
+            if (_current != null) StopCoroutine(_current);
+            gameObject.layer = _corpseLayer;
         }
 
         protected void SetDirectionToTarget()

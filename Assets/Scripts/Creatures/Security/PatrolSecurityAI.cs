@@ -8,12 +8,13 @@ namespace Creatures.Security
     {
         [SerializeField] private LayerCheck _canAttack;
         [SerializeField] private float _targetReachThreshold;
+        
 
         public override void OnHeroInVision(GameObject go)
         {
             if (IsDead) return;
             Target = go;
-
+            
             StartState(AgroToHero());
         }
 
@@ -40,7 +41,6 @@ namespace Creatures.Security
 
                 yield return null;
             }
-            Debug.Log("Miss Hero!");
             if (IsDead) yield break;
 
             yield return new WaitForSeconds(_missHeroCooldown);

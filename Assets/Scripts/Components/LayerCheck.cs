@@ -17,10 +17,12 @@ namespace Components
         {
             _collider = GetComponent<Collider2D>();
         }
+        
         private void OnTriggerStay2D(Collider2D collision)
         {
             if (_collider != null) _isTouchingLayer = _collider.IsTouchingLayers(_layer);
         }
+        
         private void OnTriggerExit2D(Collider2D collision)
         {
             if (_collider != null) _isTouchingLayer = _collider.IsTouchingLayers(_layer);

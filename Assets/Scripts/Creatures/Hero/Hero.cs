@@ -23,7 +23,7 @@ namespace Creatures.Hero
         private float _turnSpeed;
         private Vector2 _velocity;
 
-        [Space] [Header("CalculateJumpVelocity stats")] [SerializeField]
+        [Space] [Header("Jump velocity stats")] [SerializeField]
         private float _jumpHeight;
 
         [SerializeField] private float _timeToJumpApex;
@@ -32,6 +32,10 @@ namespace Creatures.Hero
         [SerializeField] private float _jumpCutOff;
         [SerializeField] private float _coyoteTime;
 
+        [Space] [Header("Sprite renderers")]
+        [SerializeField] private SpriteRenderer _body;
+        [SerializeField] private SpriteRenderer _outfit;
+
         private float _jumpSpeed;
         private float _gravityMultiplier;
         private float _coyoteTimeCounter = 0;
@@ -39,6 +43,7 @@ namespace Creatures.Hero
         private bool _desiredJump;
         private bool _pressingJump;
         private bool _currentlyJumping;
+        
 
         public bool DesiredJump
         {
@@ -57,8 +62,11 @@ namespace Creatures.Hero
         private const float DefaultGravityScale = 1f;
 
 
-        [Space] [Header("Checkers")] [SerializeField]
-        private LayerCheck _groundCheck;
+        [Space] [Header("Checkers")] 
+        [SerializeField] private LayerCheck _groundCheck;
+        [SerializeField] private LayerCheck _shadowCheck;
+        [SerializeField] private CheckCircleOverlap _attackCheck;
+        [SerializeField] private CheckCircleOverlap _interactCheck;
 
         private Rigidbody2D _rigidbody;
         private float _directionX;
@@ -73,6 +81,12 @@ namespace Creatures.Hero
         private static readonly int CrouchKey = Animator.StringToHash("is-crouch");
         private static readonly int GroundKey = Animator.StringToHash("is-ground");
         private static readonly int AttackKey = Animator.StringToHash("attack");
+        private static readonly int InteractKey = Animator.StringToHash("interact");
+
+
+        private int _hiddenLayer;
+        private int _notHiddenLayer;
+        private int _corpseLayer;
 
         private Animator _animator;
 
@@ -86,6 +100,10 @@ namespace Creatures.Hero
         {
             _rigidbody = GetComponent<Rigidbody2D>();
             _animator = GetComponent<Animator>();
+            
+            _hiddenLayer = LayerMask.NameToLayer("HiddenPlayer");
+            _notHiddenLayer = LayerMask.NameToLayer("Player");
+            _corpseLayer = LayerMask.NameToLayer("Corpse");
         }
 
         private void Update()
@@ -231,14 +249,49 @@ namespace Creatures.Hero
             _animator.SetFloat(VerticalVelocityKey, _rigidbody.velocity.y);
         }
 
+        public void StartCrouch()
+        {
+            _isCrouch = true;
+            if (_shadowCheck.IsTouchingLayer)
+            {
+                gameObject.layer = _hiddenLayer;
+                _body.sortingLayerName = "Background";
+                _outfit.sortingLayerName = "Background";
+            }
+        }
+
+        public void StopCrouch()
+        {
+            _isCrouch = false;
+            gameObject.layer = _notHiddenLayer;
+            _body.sortingLayerName = "Creatures";
+            _outfit.sortingLayerName = "Creatures";
+        }
+
         public void Attack()
         {
             _animator.SetTrigger(AttackKey);
         }
 
+        public void OnDoAttack()
+        {
+            _attackCheck.Check();
+        }
+
         public void Interact()
         {
-            
+            _animator.SetTrigger(InteractKey);
+        }
+
+        public void OnDoInteract()
+        {
+            _interactCheck.Check();
+        }
+
+        public void OnDie()
+        {
+            gameObject.layer = _corpseLayer;
+            _animator.SetTrigger(HitKey);
         }
     }
 }

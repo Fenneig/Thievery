@@ -12,11 +12,7 @@ namespace Components
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.IsInLayer(_layer))
-            {
-                Debug.Log("entered trigger");
-                _action?.Invoke(other.gameObject);
-            }
+            if (other.gameObject.IsInLayer(_layer)) _action?.Invoke(other.gameObject);
         }
 
         [Serializable]
